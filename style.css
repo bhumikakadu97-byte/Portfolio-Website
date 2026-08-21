@@ -13,6 +13,12 @@ body {
 }
   
 
+
+
+
+
+/*---------------------- Welcome site-----------------------*/
+
 .welcome{
     height: 100%;
     width: 100%;
@@ -99,23 +105,51 @@ h2{
      inset 0 0 0.3rem #fff, inset 0 0 0.2rem #fff ,0 0 .4rem #3877FF,
      0 0 .4rem #3877FF , inset 0 0 .4rem #3877FF ;
 }
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+.lodoimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------html----------------*/
 html{
     scroll-behavior: smooth;
     
 }
-.home-box{
-    max-width:1200px;
-    background: #111;
-    padding: 0px;
-    border-radius: 10px;
-    box-shadow: 0 0 25px rgba(0, 170, 255, 0.3 );
-    margin-top: 0;
-    margin-bottom:-20px;
-    height: fit-content;
-    margin-left: 9px;
-    margin-right: 9px;
 
-}
+
+
+
+
+
+
+
+
+
+
+/* ----------------------  Nav Section------------------*/
+
 
 
 .navbar{
@@ -163,6 +197,31 @@ html{
 #msite{
     display: none;
 }
+
+
+
+
+
+
+
+
+
+/*-------------Home Section----------------*/
+
+.home-box{
+    max-width:1200px;
+    background: #111;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 170, 255, 0.3 );
+    margin-top: 0;
+    margin-bottom:-20px;
+    height: fit-content;
+    margin-left: 9px;
+    margin-right: 9px;
+
+}
+
 .container{
     min-height: 100vh;
     width: 98%;
@@ -297,6 +356,19 @@ html{
      0 0 4rem #3877FF , inset 0 0 4rem #3877FF ;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+/*---------------About Section----------------------*/
+
 .my h2{
     color: #ff69b4;
 }
@@ -386,6 +458,10 @@ html{
 
 
 
+
+
+
+/*------------------Education------------------*/
 .edu-box{
 
     max-width: 1000px;
@@ -416,6 +492,18 @@ html{
     color: #00ffff;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/*------------------Projects-------------------*/
 .pro-box{
     max-width: 1000px;
     margin: auto;
@@ -428,6 +516,7 @@ html{
 
 
 }
+
 .mod-box{
     display: flex;
     flex-direction: row;
@@ -502,6 +591,12 @@ html{
      inset 0 0 0.5rem #fff, inset 0 0 0.5rem #fff ,0 0 1rem #3877FF,
      0 0 2rem #3877FF , inset 0 0 2rem #3877FF ;
 }
+
+
+
+
+
+/*-----------------Modules-------------------*/
 
 .mod {
     max-width: 1000px;
@@ -588,6 +683,20 @@ html{
     color: white;
     font-size: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------Message--------------------*/
 
 .message{
      max-width: 1000px;
@@ -701,6 +810,13 @@ html{
 
 
 
+
+
+
+
+
+/*---------------------Footer------------------*/
+
 .footer {
   background: linear-gradient(135deg, #000000, #020024, #090979);
   color: white;
@@ -804,23 +920,16 @@ html{
     margin-left: 40%;
     margin-right: 50%;
 }
-.logo img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    margin: auto;
-}
-.lodoimg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
 
 
 
 
+
+
+
+
+
+/*------------Module1------------------*/
 
 #webSection{
     display: none;
@@ -970,9 +1079,6 @@ html{
  }
 
 
-
-
-
  .badabox {
   display: flex;
   flex-wrap: wrap; /* Boxes ko next line me le aayega */
@@ -1037,9 +1143,109 @@ html{
 
 
 
+
+
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
         width: 95%;
     }
+}
+
+
+
+
+
+
+#uiuxExploreBtn{
+    margin-top: 8px;
+    padding: 10px 20px;
+    background-color:blue;
+    font-weight: 600;
+    color: #fff;
+    transition: all ease 0.2s;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    border:0.2rem solid lightskyblue ;
+    height: 15px;
+    margin-right: 16px;
+    margin-left: 16px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    
+}
+#uiuxExploreBtn:hover{
+    background-color: transparent;
+    color: pink;
+    border-color: lightskyblue;
+    background-color: transparent;
+    background-color: #090979;
+}
+
+
+#cadExploreBtn
+{
+    margin-top: 8px;
+    padding: 10px 20px;
+    background-color:blue;
+    font-weight: 600;
+    color: #fff;
+    transition: all ease 0.2s;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    border:0.2rem solid lightskyblue ;
+    height: 15px;
+    margin-right: 16px;
+    margin-left: 16px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    
+}
+#cadExploreBtn:hover{
+    background-color: transparent;
+    color: pink;
+    border-color: lightskyblue;
+    background-color: transparent;
+    background-color: #090979;
+}
+
+
+
+#javaExploreBtn
+{
+    margin-top: 8px;
+    padding: 10px 20px;
+    background-color:blue;
+    font-weight: 600;
+    color: #fff;
+    transition: all ease 0.2s;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    border:0.2rem solid lightskyblue ;
+    height: 15px;
+    margin-right: 16px;
+    margin-left: 16px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    
+}
+#javaExploreBtn:hover{
+    background-color: transparent;
+    color: pink;
+    border-color: lightskyblue;
+    background-color: transparent;
+    background-color: #090979;
+}
+
+
+
+
+#msite{
+    display: none;
 }
