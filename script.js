@@ -46,37 +46,3 @@ document.addEventListener("click", (event) => {
 });
 
 
-// ===============================
-// BACK FROM ANY MODULE
-// ===============================
-window.addEventListener("DOMContentLoaded", () => {
-
-    if (window.location.hash === "#modules") {
-
-        const welcome = document.getElementById("welcome");
-        const msite = document.getElementById("msite");
-        const modules = document.getElementById("modules");
-
-        if (welcome && msite && modules) {
-
-            // Hide Welcome page
-            welcome.style.display = "none";
-
-            // Show Main site
-            msite.style.display = "block";
-
-            document.documentElement.style.overflow = "auto";
-            document.body.style.overflow = "auto";
-
-            // Same smooth effect for every module
-            setTimeout(() => {
-                modules.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start"
-                });
-            }, 100);
-        }
-    }
-});
-
-
