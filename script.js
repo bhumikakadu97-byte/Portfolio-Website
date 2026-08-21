@@ -32,7 +32,7 @@ document.addEventListener("click", (event) => {
 
         // 4. Java Programming Module Link
         case "javaExploreBtn":
-            window.location.href = "java.html";
+            window.location.href = "mywebsec6.html";
             break;
 
         // 5. About Button Link
