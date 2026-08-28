@@ -39,6 +39,9 @@ document.addEventListener("click", (event) => {
         case "javaExploreBtn":
             window.location.href = "mywebsec6.html";
             break;
+        case "NetExploreBtn";
+            window.location.href = "mywebsec9.html";
+            break;
 
         default:
             break;
